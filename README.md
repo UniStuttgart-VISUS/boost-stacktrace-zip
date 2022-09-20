@@ -7,7 +7,7 @@ The zip file can be found on the releases page.
 ## zip file generation
 
 ```sh
-git clone --depth 1 --branch boost-1.77.0 https://github.com/boostorg/boost.git
+git clone --depth 1 --branch boost-1.80.0 https://github.com/boostorg/boost.git
 cd boost
 git submodule update --init --depth 1 tools/boostdep tools/cmake libs/stacktrace
 python3 tools/boostdep/depinst/depinst.py stacktrace
